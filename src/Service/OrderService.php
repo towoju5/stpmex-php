@@ -1,9 +1,9 @@
 <?php
 
-namespace Kinedu\STP\Service;
+namespace Towoju5\STP\Service;
 
-use Kinedu\STP\Utils\Chain;
-use Kinedu\STP\Exceptions\STPException;
+use Towoju5\STP\Utils\Chain;
+use Towoju5\STP\Exceptions\STPException;
 
 class OrderService extends RestSTPService
 {

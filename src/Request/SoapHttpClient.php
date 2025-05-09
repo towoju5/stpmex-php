@@ -1,10 +1,10 @@
 <?php
 
-namespace Kinedu\STP\Request;
+namespace Towoju5\STP\Request;
 
 use SoapFault;
 use SoapClient;
-use Kinedu\STP\Client;
+use Towoju5\STP\Client;
 
 class SoapHttpClient implements HttpClient
 {
@@ -14,7 +14,7 @@ class SoapHttpClient implements HttpClient
     /** @var \SoapClient */
     protected $httpClient;
 
-    /** @var \Kinedu\STP\Client */
+    /** @var \Towoju5\STP\Client */
     public $client;
 
     /** @var bool */
@@ -23,7 +23,7 @@ class SoapHttpClient implements HttpClient
     /**
      * Create a new http client instance.
      *
-     * @param  \Kinedu\STP\Client  $client
+     * @param  \Towoju5\STP\Client  $client
      *
      * @return void
      */

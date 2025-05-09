@@ -1,12 +1,12 @@
 <?php
 
-namespace Kinedu\STP;
+namespace Towoju5\STP;
 
-use Kinedu\STP\Request\{
+use Towoju5\STP\Request\{
     RestHttpClient,
     SoapHttpClient
 };
-use Kinedu\STP\Service\{
+use Towoju5\STP\Service\{
     AccountService,
     CatalogueService,
     OrderService

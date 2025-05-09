@@ -1,8 +1,8 @@
 # STP Mexico - PHP
 
 [![StyleCI](https://styleci.io/repos/211879152/shield?branch=master)](https://styleci.io/repos/211879152)
-[![Total Downloads](https://poser.pugx.org/kinedu/stpmex-php/downloads?format=flat-square)](https://packagist.org/packages/kinedu/stpmex-php)
-[![License](https://img.shields.io/github/license/kinedu/stpmex-php.svg?style=flat-square)](https://packagist.org/packages/kinedu/stpmex-phpstpmex-php)
+[![Total Downloads](https://poser.pugx.org/towoju5/stpmex-php/downloads?format=flat-square)](https://packagist.org/packages/towoju5/stpmex-php)
+[![License](https://img.shields.io/github/license/towoju5/stpmex-php.svg?style=flat-square)](https://packagist.org/packages/towoju5/stpmex-phpstpmex-php)
 
 - [Installation](#installation)
 - [License](#license)
@@ -10,7 +10,7 @@
 ## Installation
 
 ```shell
-composer require kinedu/stpmex-php
+composer require towoju5/stpmex-php
 ```
 
 ## Usage
@@ -22,7 +22,7 @@ Example:
 ```php
 <?php
 
-use Kinedu\STP\Client;
+use Towoju5\STP\Client;
 
 $account = '646180123400000001';
 $key = file_get_contents('key.pem');
@@ -39,7 +39,7 @@ Example:
 ```php
 <?php
 
-use Kinedu\STP\Client;
+use Towoju5\STP\Client;
 
 $client = new Client(...);
 
@@ -53,7 +53,7 @@ Example:
 ```php
 <?php
 
-use Kinedu\STP\Client;
+use Towoju5\STP\Client;
 
 $client = new Client(...);
 
@@ -67,8 +67,8 @@ Example:
 ```php
 <?php
 
-use Kinedu\STP\Client;
-use Kinedu\STP\Catalogue\{
+use Towoju5\STP\Client;
+use Towoju5\STP\Catalogue\{
     AccountTypeCatalogue,
     FinancialInstitutionCatalogue
 };
@@ -77,7 +77,7 @@ $client = new Client(...);
 
 $client->order()->create([
     'claveRastreo' => '123456789000000000000000003',
-    'conceptoPago' => 'Kinedu Payment',
+    'conceptoPago' => 'Towoju5 Payment',
     'emailBeneficiario' => 'john.doe@example.com',
     'cuentaBeneficiario' => '012345678987654321',
     'empresa' => 'KINEDU',
@@ -86,7 +86,7 @@ $client->order()->create([
     'iva' => 16.00,
     'monto' => 1200.00,
     'nombreBeneficiario' => 'John Doe',
-    'nombreOrdenante' => 'Kinedu SAPI de CV',
+    'nombreOrdenante' => 'Towoju5 SAPI de CV',
     'prioridad' => 1,
     'referenciaNumerica' => '1234567',
     'tipoCuentaBeneficiario' => AccountTypeCatalogue::CLABE,

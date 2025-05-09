@@ -1,18 +1,18 @@
 <?php
 
-namespace Kinedu\STP\Service;
+namespace Towoju5\STP\Service;
 
-use Kinedu\STP\Request\RestHttpClient;
+use Towoju5\STP\Request\RestHttpClient;
 
 class RestSTPService
 {
-    /** @var \Kinedu\STP\Request\RestHttpClient */
+    /** @var \Towoju5\STP\Request\RestHttpClient */
     protected $http;
 
     /**
      * Create a stp service instance.
      *
-     * @param  \Kinedu\STP\Request\RestHttpClient  $http
+     * @param  \Towoju5\STP\Request\RestHttpClient  $http
      *
      * @return void
      */

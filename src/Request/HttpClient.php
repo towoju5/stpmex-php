@@ -1,6 +1,6 @@
 <?php
 
-namespace Kinedu\STP\Request;
+namespace Towoju5\STP\Request;
 
 interface HttpClient
 {

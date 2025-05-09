@@ -1,6 +1,6 @@
 <?php
 
-namespace Kinedu\STP\Utils;
+namespace Towoju5\STP\Utils;
 
 class Chain
 {

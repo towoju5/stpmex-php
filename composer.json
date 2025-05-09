@@ -1,17 +1,17 @@
 {
-    "name": "kinedu/stpmex-php",
-    "homepage": "https://github.com/Kinedu/stpmex-php",
+    "name": "towoju5/stpmex-php",
+    "homepage": "https://github.com/Towoju5/stpmex-php",
     "type": "library",
     "license": "MIT",
     "keywords": [
-        "kinedu",
+        "towoju5",
         "stp"
     ],
     "authors": [
         {
-            "name": "Orlando Charles",
-            "email": "orlando@kinedu.com",
-            "homepage": "https://orlandocharles.com/",
+            "name": "Emmanuel Towoju",
+            "email": "towojuads@gmail.com",
+            "homepage": "https://luxconsole.com/",
             "role": "Developer"
         }
     ],
@@ -21,7 +21,7 @@
     },
     "autoload": {
         "psr-4": {
-            "Kinedu\\STP\\": "src"
+            "Towoju5\\STP\\": "src"
         }
     },
     "minimum-stability": "dev",

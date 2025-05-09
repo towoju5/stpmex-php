@@ -1,18 +1,18 @@
 <?php
 
-namespace Kinedu\STP\Service;
+namespace Towoju5\STP\Service;
 
-use Kinedu\STP\Request\SoapHttpClient;
+use Towoju5\STP\Request\SoapHttpClient;
 
 class SoapSTPService
 {
-    /** @var \Kinedu\STP\Request\HttpClient */
+    /** @var \Towoju5\STP\Request\HttpClient */
     protected $http;
 
     /**
      * Create a stp service instance.
      *
-     * @param  \Kinedu\STP\Request\SoapHttpClient  $http
+     * @param  \Towoju5\STP\Request\SoapHttpClient  $http
      *
      * @return void
      */

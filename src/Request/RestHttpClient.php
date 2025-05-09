@@ -1,8 +1,8 @@
 <?php
 
-namespace Kinedu\STP\Request;
+namespace Towoju5\STP\Request;
 
-use Kinedu\STP\Client;
+use Towoju5\STP\Client;
 use GuzzleHttp\Client as GuzzleClient;
 
 class RestHttpClient implements HttpClient
@@ -13,7 +13,7 @@ class RestHttpClient implements HttpClient
     /** @var \GuzzleHttp\Client */
     protected $httpClient;
 
-    /** @var \Kinedu\STP\Client */
+    /** @var \Towoju5\STP\Client */
     public $client;
 
     /** @var bool */

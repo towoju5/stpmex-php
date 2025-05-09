@@ -1,6 +1,6 @@
 <?php
 
-namespace Kinedu\STP\Service;
+namespace Towoju5\STP\Service;
 
 class CatalogueService extends SoapSTPService
 {

@@ -1,6 +1,6 @@
 <?php
 
-namespace Kinedu\STP\Catalogue;
+namespace Towoju5\STP\Catalogue;
 
 class AccountTypeCatalogue
 {

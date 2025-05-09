@@ -1,6 +1,6 @@
 <?php
 
-namespace Kinedu\STP\Exceptions;
+namespace Towoju5\STP\Exceptions;
 
 use Exception;
 
